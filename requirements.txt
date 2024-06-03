@@ -1,0 +1,6 @@
+streamlit
+datasets
+nltk
+scikit-learn
+joblib
+rouge_score
