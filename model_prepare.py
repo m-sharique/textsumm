@@ -29,7 +29,7 @@ def sample_data(dataset, sample_size=0.5):
 def load_and_sample_dataset():
     dataset = load_dataset('cnn_dailymail', '3.0.0')
     train_data = dataset['train']
-    train_data = sample_data(train_data, 0.5)
+    train_data = sample_data(train_data, 1.0)
     return train_data
 
 # Preprocess the dataset
